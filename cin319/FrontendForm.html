@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <p style="font-size: 45%"></p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개발자 지원 폼</title>
+    <style>
+        button {border-radius: 6px;}
+    </style>
+</head>
+<body>
+    <h1>프런트엔드 개발자 지원서📝</h1>
+    <p>HTML, CSS, JavaScript에 대한 기술적 이해와 경험이 있는분을 찾습니다.</p>
+    <hr>
+    <form>
+        <legend><h2>개인정보🪪</h2></legend>
+        <ul>
+            <label for="user-name">이름</label>
+                <input type="text" id="user-name" required placeholder="공백없이 입력하세요">
+            </label><br>
+            <label for="phone">연락처</label>
+                <input type="tel" id="phone" required>
+            </label>
+        </ul>
+        <hr>
+        
+
+        <legend><h2>지원 분야🔘</h2></legend>
+        <ul>
+        <fieldset style="border-radius: 10px;">
+            <label><input type="radio" name="fileld" value="yes" required>웹 퍼블리싱</label><br>
+            <label><input type="radio" name="fileld" value="yes" required>웹 애플리케이션</label><br>
+            <label><input type="radio" name="fileld" value="yes" required>개발 환경 개선</label>
+            
+        </fieldset>
+        </ul>
+
+        <hr>
+
+        <legend><h2>지원동기🫵</h2></legend>
+        <ul>
+        <label for="memo"></label>
+        <textarea style="border-radius: 10px;"id="memo" cols="60" rows="5" required placeholder="본사 지원 동기를 간력히 써 적어주세요"></textarea><br>
+        </ul>
+
+        <hr> <!-- 분간 표시선 -->
+
+        <button  style="background-color: greenyellow;", d type="button "type="submit">접수하기✅</button>
+        <button  style="background-color: red;" type="reset">다시하기🔄</button>
+     
+    </form>
+
+</body>
+</html>
