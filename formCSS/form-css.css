@@ -8,6 +8,7 @@ body {
 }
 #signup {
     background:#fff;
+    box-shadow: 0 2px 55px #474747;
     border:1px solid #222;
     border-radius: 5px;
     padding: 20px;
@@ -15,7 +16,8 @@ body {
     margin:30px auto;
 }
 #signup fieldset{
-    border: 1px solid #ccc;
+    border: px solid #ccc;
+    /*border-radius: 10px; */
     margin-bottom: 30px;
 }
 #signup legend {
@@ -61,5 +63,6 @@ body {
 }
 #signup button:hover {
     background-color: #222; /* 배경색 - 검정 계열색 */
+    box-shadow: 0 5px 30px #474747;
     color:#fff; /*. 글자색 - 흰색*/
 }
