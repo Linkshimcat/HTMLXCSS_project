@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>표 만들기</title>
     <style>
-        
-        table { border-collapse: collapse; }
-        th, td { border: 1px solid black; padding: 30px; }
+        table { 
+            border-collapse: collapse;
+            caption-side: bottom;
+            border: 1px solid black; 
+
+        }
+        td, th {
+            border: 1px dotted black;
+            padding: 10px;
+            text-align: center;
+        }
         td {width: 150px; height: 50px;}
     </style>
 </head>
 
 <body align="center">
     <h1>가정용품 세트</h1>
-    <table align="center"> <!-- table앞에 border="1" 쓰면 됨. -->
+    <table> <!-- table앞에 border="1" 쓰면 됨. -->
         <caption>선물용과 가정용 상품 구성</caption>
         <tr>
             <th>용도</th>
@@ -24,24 +32,24 @@
         </tr>
         <thead>
         <tbody>
-            <tr align="center">
+            <tr>
                 <td rowspan="2">선물용</td>
                 <td>3kg</td>
                 <td>11~16과</td>
                 <td>35,000원</td>
             </tr>
-            <tr align="center">
+            <tr>
                 <td>5kg</td>
                 <td>18~26과</td>
                 <td>52,000원</td>
             </tr>
-            <tr align="center">
+            <tr>
                 <td rowspan="2">가정용</td>
                 <td>3kg</td>
                 <td>11~16과</td>
                 <td>30,000원</td>
             </tr>
-            <tr align="center">
+            <tr>
                 <td>5kg</td>
                 <td>18~26과</td>
                 <td>47,000원</td>

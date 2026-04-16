@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style-test</title>
+
+    <style>
+        .trans1 {text-transform: capitalize;} /* 앞에 첫 글자를 대문자로 변경 */
+        .trans2 {text-transform: uppercase;}  /* 모든 글자를 대문자로 변경 */
+        .trans3 {text-transform: lowercase;}  /* 모든 글자를 소문자로 변경 */
+        .spacing1 {
+            letter-spacing: 0.2em; /* 글자 자간  0.2em크기로 띔 */
+        }
+        .spacing2 {
+            letter-spacing: 0.5em; /* 글자 자간 0.5em크기로 띔 */
+        }
+    </style>
+</head>
+<body>
+    <p class="trans1">html</p>
+    <p class="trans2">css</p>
+    <p class="trans3">JAVASCRIPT</p>
+    <hr>
+    <p>CSS</p> <!--spacing 클래스가 없으면 글자 자간을 안뜀-->
+    <p class="spacing1">CSS</p>
+    <p class="spacing2">CSS</p>
+    
+</body>
+</html>

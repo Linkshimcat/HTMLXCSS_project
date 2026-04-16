@@ -8,9 +8,9 @@ body {
 }
 #signup {
     background:#fff;
-    /* box-shadow: 0 2px 55px #474747; */
+    box-shadow: 2px 0px 80px #474747;
     border:1px solid #222;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 20px;
     width: 400px;
     margin:30px auto;
@@ -41,6 +41,11 @@ body {
     letter-spacing: 1px;
     margin: auto;
     padding: 7px 25px;
+}
+#signup fieldset {
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 1px;
 }
 #signup label {
     float: left;
