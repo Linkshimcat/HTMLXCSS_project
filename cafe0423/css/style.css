@@ -11,6 +11,13 @@ body {
     font-family: "Jeju Gothic", serif;
 }
 
+/* header nav {
+    position: fixed;
+    top: 10;
+    width: 100%;
+    z-index: 1000%;
+} */
+
 a {
     text-decoration: none;
 }
